@@ -1,0 +1,126 @@
+/* CV-sivun tyylit */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+/* Yläosa */
+
+header {
+    background-color: #333333;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Navigointi */
+
+nav {
+    background-color: #222222;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #555555;
+}
+
+/* CV:n sisältö */
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Osio */
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Otsikot */
+
+h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #333333;
+    padding-bottom: 10px;
+}
+
+/* Teksti */
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Listat */
+
+ul {
+    line-height: 1.8;
+}
+
+/* Yhteystiedot */
+
+.contact {
+    text-align: center;
+}
+
+/* Puhelin ja sähköposti */
+
+.contact p {
+    margin: 5px;
+}
+
+/* Responsiivisuus */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    main {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
